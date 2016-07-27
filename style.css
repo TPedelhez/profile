@@ -4,6 +4,7 @@ body {
   color: #7D7D7D;
   font-size: 15px;
   line-height: 1.6em;
+  background-image:url(images/small_blue_donuts.png)
 }
 
 h1 {
@@ -35,11 +36,12 @@ a:hover {
 }
 
 .card {
-  background: white;                          /* White background */
-  padding: 30px;                              /* Internal space */
-  border-radius: 4px;                         /* Small radius */
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
 }
 
 .img-size {
@@ -70,4 +72,23 @@ a:hover {
 
 .list-inline > li i {
   font-size: 25px;
+}
+
+btn-green:hover {
+    background-color: #5DDFB8;
+    color: white;
+}
+
+.btn-green:hover {
+    color: white;
+    background-color: #5DDFB8;
+    text-decoration: none;
+}
+
+.btn-green {
+    background-color: #41D7A7;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
 }
